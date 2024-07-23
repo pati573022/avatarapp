@@ -1,0 +1,50 @@
+public class VendadoProduto : pessoa
+{
+
+    string produto;
+    int id;
+    string unidade;
+
+    public string GetProduto ()
+    {
+        return produto;
+
+         public void SetProduto (string produto)
+    {
+        this.produto= produto;
+        
+    }
+    public string GetProduto ()
+    {
+        return produto;
+    }
+
+    public void SetId ( id)
+    {
+        this.id= id;
+        
+    }
+    public string GetId ()
+    {
+        return id :
+    }
+
+
+    public string GetUnidade ()
+    {
+        return unidade;
+
+         public void SetUnidade (string unidade)
+    }
+    {
+        this.unidade= unidade;
+        
+    }
+    public string GetUnidade ()
+    {
+        return unidade;
+    }
+    }
+
+
+

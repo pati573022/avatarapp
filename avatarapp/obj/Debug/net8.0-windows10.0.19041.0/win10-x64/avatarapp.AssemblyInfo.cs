@@ -10,14 +10,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.companyname.avatarapp")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "avatarapp")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("avatarapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+898b8c13431d72820207e4c14e52cc96935280a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f9b0a86e5642d1f9f3c1f878545aa4a4850a61")]
 [assembly: System.Reflection.AssemblyProductAttribute("avatarapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("avatarapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

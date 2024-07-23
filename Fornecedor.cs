@@ -4,9 +4,9 @@ public class Fornecedor : pessoa
 {
 
     string nome;
-    string id:
-    string materiaPrima:
-    string cnpj:
+    string id;
+    string materiaPrima;
+    string cnpj;
     
     Int64 id;
     public void SetNome (string nome)
@@ -18,13 +18,18 @@ public class Fornecedor : pessoa
     {
         return nome :
     }
-    string telefone;
 
-    public void SetTelefone (string telefone)
+
+    public void SetId ( id)
     {
-        this.telefone= telefone;
+        this.id= id;
         
     }
+    public string GetId ()
+    {
+        return id :
+    }
+    
     public string GetMateriaPrima ()
     {
         return materiaprima;
@@ -48,6 +53,7 @@ public class Fornecedor : pessoa
     {
         return cnpj :
     }
+     }
 
 
 
