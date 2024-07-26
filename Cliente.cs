@@ -1,4 +1,4 @@
-public class Cliente : pessoa
+public class Cliente : 
 {
 
     string nome;
@@ -17,15 +17,14 @@ public class Cliente : pessoa
     }
 
 
-    public void SetId ( id)
+    public void GetId ( )
     {
-        this.id= id;
-        
+      return id;
+
+      public void Setid  (string i) 
     }
-    public string GetId ()
-    {
-        return id :
-    }
+        id= i;
+    
 
 
 

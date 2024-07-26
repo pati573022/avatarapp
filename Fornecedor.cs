@@ -1,6 +1,6 @@
 namespace avatarapp;
 
-public class Fornecedor : pessoa
+public class Fornecedor : 
 {
 
     string nome;

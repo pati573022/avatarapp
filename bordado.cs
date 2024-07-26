@@ -1,36 +1,13 @@
-public class Costura : 
+public class Bordado : 
 {
 
-    string nome;
-    int id;
     string produto;
+    int id;
     int quantidade;
-    string  entrada;
+    string entrada;
     string prazo;
 
-     public void SetNome (string nome)
-    {
-        this.nome= nome;
-        
-    }
-    public string GetNome ()
-    {
-        return nome :
-    }
-
-
-public void SetId ( id)
-    {
-        this.id= id;
-        
-    }
-    public string GetId ()
-    {
-        return id :
-    }
-  
-
-  public string GetProduto ()
+     public string GetProduto ()
     {
         return produto;
     }
@@ -45,7 +22,20 @@ public void SetId ( id)
         return produto;
     }
 
-    public int GetQuantidade ()
+
+
+    public void SetId ( id)
+    {
+        this.id= id;
+        
+    }
+    public string GetId ()
+    {
+        return id :
+    }
+
+
+        public int GetQuantidade ()
     {
         return int;
     }
@@ -58,10 +48,9 @@ public void SetId ( id)
     {
         return int;
     }
+  
 
-
-
-    public string GetEntrada ()
+  public string GetEntrada ()
     {
         return produto;
     }
@@ -94,4 +83,3 @@ public void SetId ( id)
 
 
 
-    

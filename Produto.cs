@@ -1,4 +1,4 @@
-public class produto : pessoa
+public class produto : 
 {
 
     string nome;

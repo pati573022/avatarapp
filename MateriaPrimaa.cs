@@ -1,4 +1,4 @@
- public class materiaPrima : pessoa
+ public class materiaPrima : 
  {
 
     string nome;
